@@ -1,0 +1,25 @@
+/* ScrollToTopButton */
+.scroll-to-top {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1000;
+}
+
+.scroll-to-top-button {
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  font-size: 24px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, transform 0.3s;
+}
+
+.scroll-to-top-button:hover {
+  background: linear-gradient(135deg, #a777e3, #6e8efb);
+  transform: translateY(-5px);
+}
